@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오 리스트</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <script>
+      var bw = $(window).width();
+      var bh = $(window).height();
+      $('#wrap').css({height:bh});
+    </script>
+    <style>
+      body{
+        background-image: url('./css/bg_img.jpg');
+        background-repeat: repeat;
+        background-size: 100%;
+        background-position: center;
+      }
+      #wrap {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+      }
+      #header h1{
+        font-family:'Uchen', sans-serif;
+        padding-top: 30px;
+        margin-bottom: 20px;
+        font-size: 36px;
+        font-weight: 600;
+        color:lightcoral;
+        text-shadow: 0 10 10 deeppink;
+      }
+      #wrap div{
+        width: 1000px auto;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.5;
+        border: 1px dotted deepskyblue;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <h1>PORTFOLIO</h1>
+      </header>
+      <div>
+        <p><a href="./Montblanc_Float/montblanc.html">몽블랑 플롯 포트폴리오</a></p>
+        <p><a href="./RWD_Temlplate/09_webadd_footer.html">반응형 템플릿</a></p>
+      </div>
+
+
+ 
+    </div>
+  </body>
+</html>
