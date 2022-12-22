@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfoilo, Flex, Dior_Accessory</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="shortcut icon" href="./images/favicon/montblanc_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/montblanc_fav144.png"> -->
+     <!-- JS 플러그인 파일 -->
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <!-- Aside SNB -->
+        <aside>
+            <div class="top_sub w1440">
+                <p>
+                    온라인 구매는&nbsp; 불가하오니&nbsp; 매장방문 바랍니다.
+                </p>
+                <p>
+                    <a href="#go">매장위치 바로가기 &nbsp;&nbsp;</a>
+                    <!-- <img src="http://place-hold.it/14x14/fff" alt="혜택확인"> -->
+                </p>
+                <p>
+                    창닫기&nbsp;&nbsp;
+                    <img src="http://place-hold.it/15x15/fff" alt="X자버튼">
+                </p>
+            </div>
+        </aside>
+        <!-- /Aside SNB -->
+
+        <!-- hrader -->
+        <header>
+            <div>
+                <!-- <div class="logo w1440">
+                    <h1><a href="dior.html">DIOR</a></h1>
+                    <div class="logo_ul">
+                        <ul>
+                            <li><a href="#"><img src="./images/search.png" alt="검색"></a></li>
+                            <li><a href="#"><img src="./images/login.png" alt="로그인"></a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="header_01">
+                   <img src="./images/ass_header2.jpg" alt="헤더메인">
+                </div>
+                
+                <div class="gnb_div">
+                    <nav class="gnb3">
+                        <ul class="w1440">
+                            <li><a href="dior.html">Home</a></li>
+                            <li><a href="Fashion.html">Fashion</a></li>
+                            <li><a href="Beauty.html">Beauty</a></li>
+                            <li><a href="accessory.html">accessory</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main role="main">
+            <!-- section10 -->
+            <section class="sec_10">
+                <div id="portfolio">
+                    <!-- A. 스와이퍼 최상위 구조 클래스 -->
+                    <div class="swiper-container">
+                        <!-- B. 스와이퍼 될 Contents 부모 클래스 -->
+                        <div class="swiper-wrapper">
+        
+                            <!-- C-1. 스와이퍼 될 Slider 각각 내용들 -->
+                            <div class="swiper-slide slide1">
+                                <h3>Dior</h3>
+                                <div class="p_mockup">
+                                    <img src="./images/ass_img2.jpg" alt="슬라이드이미지600x500" width="600" height="500">
+                                </div>
+                                <div class="btn">
+                                    <button><a href="#">Back</a></button>
+                                    <button><a href="#">Next</a></button>
+                                </div>
+                            </div>
+                            <!-- C-2. 스와이퍼 될 Slider 각각 내용들 -->
+                            <div class="swiper-slide " >
+                                <!-- <h3><em>Contemporary&nbsp;Dance</em></h3> -->
+                                <div class="p_mockup">
+                                    <img src="./images/ass_img3.jpg" alt="슬라이드이미지600x500" width="600" height="500">
+                                </div>
+                            </div>
+                            <!-- C-3. 스와이퍼 될 Slider 각각 내용들 -->
+                            <div class="swiper-slide ">
+                                <!-- <h3><em>Contemporary&nbsp;Dance</em></h3> -->
+                                <div class="p_mockup">
+                                    <img src="./images/ass_img4.jpg" alt="슬라이드이미지600x500" width="600" height="500">
+                                </div>
+                            </div>
+                            <!-- C-4. 스와이퍼 될 Slider 각각 내용들 -->
+                            <div class="swiper-slide ">
+                                <!-- <h3><em>Contemporary&nbsp;Dance</em></h3> -->
+                                <div class="p_mockup">
+                                    <img src="./images/im4.jpg" alt="슬라이드이미지600x500" width="600" height="500">
+                                </div>
+                            </div>
+                            <!-- C-5. 스와이퍼 될 Slider 각각 내용들 -->
+                            <div class="swiper-slide ">
+                                <!-- <h3><em>Contemporary&nbsp;Dance</em></h3> -->
+                                <div class="p_mockup">
+                                    <img src="./images/im5.jpg" alt="슬라이드이미지600x500" width="600" height="500">
+                                </div>
+                            </div>
+                            <!-- C-6. 스와이퍼 될 Slider 각각 내용들 -->
+                            <div class="swiper-slide ">
+                                <!-- <h3><em>Contemporary&nbsp;Dance</em></h3> -->
+                                <div class="p_mockup">
+                                    <img src="./images/im6.jpg" alt="슬라이드이미지600x500" width="600" height="500">
+                                </div>
+                            </div>
+                            <!-- /C-1. 스와이퍼 될 Slider 각각 내용들 -->
+                        </div>
+                        <!-- /B. 스와이퍼 될 Contents 부모 클래스 -->
+                        <!-- D. 스와이퍼 넘버링 클래스 -->
+                        <div class="swiper-pagination"></div>
+                        <!-- /D. 스와이퍼 넘버링 클래스 -->
+                        <!-- E. 스와이퍼 좌우 화살표 -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- /E. 스와이퍼 좌우 화살표 -->
+                    </div>
+                    <!-- /A. 스와이퍼 최상위 구조 클래스 -->
+                </div>
+            </section>
+            <!-- section11 -->
+            <section class="sec_11">
+                <div class="sec_11_div">
+                    <h1>Forever</h1>
+                    <div class="sec_11_flex">
+                        <h3 class="div_h3">
+                            <img src="./images/ass_img1.jpg" alt="악세사리 메인">
+                        </h3>
+                        <div class="sec_11_txt w1440">
+                            <h2>
+                                아이코닉한 리미티드 에디션과 탁월한 오브제가 <br> 
+                                컬렉션을 완성합니다.
+                            </h2>
+                            <img src="./images/Dior_Logo.svg.png" alt="로고" width="320" height="80">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer>
+            <div class="footer_infotmation w1440">
+                <div class="footer_left">
+                    <nav>
+                        <ul class="footer_gnb">
+                            <li><a href="#">이용약관&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;쇼핑몰&nbsp;이용안내&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;쇼핑몰&nbsp;이용안내&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;개인정보처리방침&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;고객센터&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;1:1문의&nbsp;&nbsp;|</a></li>
+                            <li><a href="#">&nbsp;&nbsp;매장안내&nbsp;&nbsp;|</a></li>
+                        </ul>
+                    </nav>
+                    <div class="footer_info">
+                        <p>
+                            크리스챤디올꾸뛰르코리아주식회사  | 대표이사 : 트렁히엔트란 |<br>
+                            사업자등록번호 : 120-81-0000 | 통신판매업신고번호 : 제 2021-서울중구-00001 <br>
+                            주소 : 서울특별시 중구 을지로5길 19, 26층 | 대표전화 : 02-3480-0104 | 팩스 : 02-446-7323
+                        </p>
+                        <p class="footer_escrow">
+                            <span>
+                                고객님의 안전거래를 위해 현금 결제시, <br>
+                                구매안전 서비스를 이용하실 수 있습니다 [가입사실확인]
+                            </span>
+                            <img src="http://place-hold.it/330x40/00000" alt="안전거래 확인이미지">
+                        </p>
+                        <p>
+                            Copyright &copy;  CHRISTIAN DIOR COUTURE KOREA ALL RIGHTS RESERVED.
+                    </div>
+                </div>
+                <div class="footer_contact">
+                    <dl>
+                        <dt>고객센터</dt>
+                        <dd>02-3480-0104</dd>
+                        <dd>평일 09:00~18:00 | 점심 13:00 ~ 14:00</dd>
+                    </dl>
+                    <dl>
+                        <dt>BANK INFO</dt>
+                        <dd>국민은행 801-32-323236-39</dd>
+                        <dd>예금주 : 모현진</dd>
+                    </dl>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+    </div>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/dior.css">
+    <link rel="stylesheet" href="./css/accessory.css">
+    <!-- 제이쿼리 스와이퍼 플러그인 추가 -->
+    <script src="./js/swiper-bundle.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+
+    <script src="./js/Beauty.js"></script>
+    <script src="./js/accessory.js"></script>
+</body>
+</html>
