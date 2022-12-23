@@ -1,0 +1,104 @@
+@charset "UTF-8";
+body{
+    font-family:'Noto Sans KR', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* Header 영역 */
+header{
+    /* 포지션 위치값 */
+    position: relative;
+}
+#header{
+    padding: 10px 5px;
+}
+#header h1{
+    font-size: 1.25rem;
+    line-height: 2;
+    color: #222;
+    font-weight: 600;
+}
+#header ul {
+    margin: 20px 0 10px;
+}
+#header ul li {
+    margin: 10px 0;
+}
+#header ul li a{
+    color: #555;
+}
+/* GNB 토글 효과 */
+#header label {
+    display: block;
+
+    /* 포지션 */
+    /* position: absolute;
+    right: 0;
+    top: 4px;
+    z-index: 1; */
+}
+/* 체크박스 영역 */
+#c_checkbox{
+    display: none;
+}
+/* 로딩시 GNB메뉴 가리기 */
+#c_checkbox:checked+nav{
+    display: none;
+}
+#c_checkbox+nav{
+    display: block;
+}
+
+/* Contents1 영역 */
+#main_content{
+    background-color:peachpuff ;
+    padding: 40px 15px 30px;
+}
+#main_content h2{
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main_content p{
+    color: #fff;
+    text-align: center;
+}
+/* Contents 2 영역 */
+#sub_contents{
+    padding-top: 30px;
+}
+#sub_contents h2{
+    color: #171616;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#sub_contents h3{
+    color: #333;
+    font-size: 1.125em;
+    text-align: center;
+}
+#sub_contents p{
+    color: #555;
+}
+#sub_contents img{
+    width: 94%;
+    display: block;
+    margin: 10px auto;
+}
+
+/* footer 영역 */
+#footer{
+    padding-top: 40px;
+}
+#footer footer{
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 40px;
+    text-align: center;
+    background: #323232;
+}

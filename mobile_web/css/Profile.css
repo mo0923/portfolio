@@ -1,0 +1,76 @@
+@charset "UTF-8";
+#wrap{
+    background: none;
+}
+/* 배경 동영상 */
+video{
+    width: 100%;
+    /* height: 100%;
+    max-height: 100%; */
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -11;
+}
+
+#contents {
+    /* padding: 0 16px;
+    background-image: url('../images/scale.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-image-width: 100%;
+    background-size:auto;
+    margin-top: 100px; */
+    margin-top: 120px;
+}
+
+
+#contents .viedeoback{
+    padding: 30px;
+}
+
+#contents .videoback h3 span{
+    font-size: 50px;
+}
+#contents .videoback p:nth-child(2){
+    margin-bottom: 44px;
+}
+#contents .videoback p:nth-child(3){
+    margin-bottom: 40px;
+}
+#contents .videoback p:nth-child(4){
+    margin-bottom: 40px;
+}
+#contents .videoback strong{
+    font-weight: 900;
+    text-shadow: 1px 1px #000;
+}
+
+/* ========================================info와 같음 */
+
+
+
+#contents .viedeoback h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#contents .viedeoback h5{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    background: #7E95BF;
+    margin: 10px 0 24px;
+}
+#contents .viedeoback a{
+    color: #ccc;
+}
+#contents .viedeoback p:nth-last-child(2){
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 24px;
+}
