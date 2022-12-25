@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile portfoilo iframe</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Profile.css">
     <style>
-        html,body{
+        body{
             background-color: #7E95BF;
+            background-position: fixed;
+            z-index: -1000;
         }
         #frame_wrap{
             margin: 2.5px auto;
@@ -21,23 +24,25 @@
             background-repeat: no-repeat;
             background-size: 100%;
             background-position: center;
-            background-color: #fff;
-
         }
+        
         .iframe_box{
             padding-top: 132px;
             padding-left: 70px;
+
         }
         iframe{
             display: block;
             border-radius: 0 0 34px 34px;
+            background-color: #fff;
+
         }
     </style>
 </head>
 <body>
     <div id="frame_wrap">
         <div class="iframe_box">
-            <iframe src="./Home.html" frameborder="0" width="368" height="722"></iframe>
+            <iframe src="./Home.html" frameborder="0" width="368" height="722" style=""></iframe>
         </div>
     </div>
 </body>
