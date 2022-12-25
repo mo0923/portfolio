@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio, Mobile Parasite </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/montblanc_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/montblanc_fav144.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/display_none_scrollbar.css">
+    <!-- 페이지 CSS -->
+    <link rel="stylesheet" href="./css/ticket.css">
+    <link rel="stylesheet" href="css/display_none_scrollbar.css">
+    <!-- JS 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/prefixfree.min.js"></script>
+    <!-- 페이지 JS -->
+    <!-- <script src="./js/mobileweb_parasite.js"></script> -->
+    <style>
+        #more{
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <!-- header -->
+      <header class="header">
+        <!-- 햄버거 메뉴 그리기 -->
+        <input type="checkbox" id="menuicon">
+        <label for="menuicon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <!-- /햄버거 메뉴 그리기 -->
+        <!-- 햄버거 메뉴 클릭시 나오는 gnb메뉴 -->
+        <nav class="mobile_gnb">
+          <ul class="gnb">
+            <li><a href="./Home.html">HOME</a></li>
+            <li><a href="./ticket.html">GET&nbsp;TICKETS</a></li>
+            <li><a href="./video.html">VIDEOS</a></li>
+            <li><a href="./Info.html">INFO</a></li>
+            <li><a href="./Profile.html">PROFILE</a></li>
+            <li><a href="#">SHARE</a></li>
+          </ul>
+          <ul class="sns">
+            <li>
+              <a href="#" class="facebook">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" class="twitter">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" class="insta">
+              <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /햄버거 메뉴 클릭시 나오는 gnb메뉴 -->
+        <aside class="banner">
+            <img src="./images/banner3.jpg" alt="배너">
+        </aside>
+        <div class="main_logo">
+          <a href="./Home.html"><img src="./images/Disney+_logo.svg.png" alt="메인로고"></a>
+        </div>
+      </header>
+      <!-- /header -->
+      <!-- contents -->
+      <div id="contents">
+        <!-- Search Form - hover 검색창 -->
+        <form action="#">
+            <fieldset>
+                <div class="box">
+                    <div class="search_container">
+                        <span class="icon">
+                            <i class="fa fa-search"></i>
+                        </span>
+                        <input type="search" id="search" placeholder="Search..." autocomplete="off">
+                        </div>
+                    </div>
+            </fieldset>
+        </form>
+        <!-- /Search Form - hover 검색창 -->
+        <!-- content section -->
+        <section class="promotion">
+          <h3>
+            THE RETURN OF LEGEND
+          </h3>
+          <p>
+            “두려움을 깨고, 새로운 운명을 만나다” <br>
+            마법의 땅을 지나 숨겨진 과거의 진실을 찾기 위한 <br>
+            엘사와 안나의 경이로운 모험!
+          </p>
+          <p>
+            더욱 커진 스케일로 5년 만에 돌아오다!
+          </p>
+        </section>
+        <!-- content section -->
+        <!-- youtube section -->
+        <section class="youtube">
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/3WUw9thZR4k?autoplay=1&mute=1&amp;loop=1;playlist=영상키값" 
+            title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        ` </iframe>
+        </section>
+        <!-- youtube section -->
+        <!-- 상영지역 section -->
+        <section class="area">
+            <h3>
+              The Disney World
+            </h3>
+            <p>
+                <button>Segovian Province</button>
+                <button>Neuschwanstein</button>
+                <button>Eguishime</button>
+                <button>Mont Saint Michel</button>
+                <button>Venezuela</button>
+                <button>Bergen</button>
+                <button>Quebec Ice Hotel</button>
+                <button>Scotland</button>
+                <button>Big Ben </button>
+                <button id="dots">...</button>
+                <span id="more">
+                    <button>Ariel</button>
+                    <button>Aurora</button>
+                    <button>Belle</button>
+                    <button>Cinderella</button>
+                    <button>Jasmine</button>
+                    <button>merida</button>
+                    <button>Mulan</button>
+                    <button>Pocahontas</button>
+                    <button>Rapunzel</button>
+                    <button>Snow White</button>
+                    <button>Anna</button>
+                    <button>Elsa</button>
+                </span>
+                <button id="myBtn">More</button>
+            </p>
+        </section>
+        <!-- 상영지역 section -->
+    </div>
+      <!-- /contents -->
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <p>
+          <img src="./images/Disney.png" alt="제작사 로고">
+      </p>
+      <div class="copyright">
+          <p>
+              &copy;WALT DISNEY PICTURES
+          </p>
+      </div>
+  </footer>
+    <!-- /FOOTER -->
+    <script src="./js/ticket.js"></script>
+  </body>
+</html>
