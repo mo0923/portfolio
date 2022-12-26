@@ -1,0 +1,61 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'AudiType_sns';
+    src: url(../fonts/AudiType-ExtendedNormal_4.03.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'AudiType_Wide_sns';
+    src: url(../fonts/AudiType-WideNormal_4.03.ttf);
+}
+@font-face {
+    font-family: 'AudiType_normal_sns';
+    src: url(../fonts/AudiType-Normal_4.03.ttf);
+}
+.main_my_etron {
+    width: 1920px;
+    max-width: 1903px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    position: relative;
+    background-color: #fff;
+}
+.main_my_etron img {
+    width: 100%;
+}
+.main_my_etron_position {
+    position: absolute;
+    background-color: #fff;
+    left: 78px;
+    top: 106px;
+    width: 846px;
+    height: 362px;
+    padding-top: 80px;
+    padding-left: 72px;
+}
+.main_my_etron_position h3 {
+    font-family: 'AudiType_sns';
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(65, 65, 65);
+    margin-bottom: 24px;
+}
+.main_my_etron_position p {
+    color: rgb(65, 65, 65);
+    line-height: 22px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.main_my_etron_position span {
+    background-color: #000;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 58px;
+    width: 150px;
+    height: 58px;
+    font-size: 16px;
+    transition: all 300ms;
+}
+.main_my_etron_position a:hover span {
+    background-color: #666666;
+}
