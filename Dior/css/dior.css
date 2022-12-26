@@ -49,6 +49,7 @@ aside .top_sub>p:nth-child(2) img {
 aside .top_sub>p:nth-child(3) {
     margin-top: 18px;
     margin-right: 54px;
+    cursor: pointer;
 }
 aside .top_sub>p:nth-child(3) img {
     vertical-align: middle;
@@ -68,6 +69,10 @@ aside .top_sub>p:nth-child(3) img {
 }
 .logo_ul ul li a img{
     padding: 5px;
+}
+header{
+    width: 100%;
+    min-width: 1440px;
 }
 header h1{
     width: 100%;
@@ -91,7 +96,7 @@ header h1{
     /* width: 100%;
     min-width: 1440px; */
     height: 45px;
-    line-height: 40px;
+    line-height: 45px;
     margin-bottom: 200px;
 
 }
@@ -105,8 +110,16 @@ header h1{
     font-weight: 200;
 
 }
-
-
+.gnb ul li{
+    width: 110px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.gnb ul li:hover{
+    background-color: #C294B7;
+    color: dimgray;
+    cursor: pointer;
+}
 
 
 /* 메인 */
@@ -220,13 +233,13 @@ header h1{
 footer{
     width: 100%;
     margin-top: 106px;
+    min-width: 1440px;
     /* background-color: #1d1c2e; */
     background-color: #000;
     padding-top: 24px;
     padding-bottom: 54px;
     line-height: 1.5;
     margin: 0 auto;
-    min-width: 1440px;
 }
 .footer_infotmation{
     /* 플렉스 */
