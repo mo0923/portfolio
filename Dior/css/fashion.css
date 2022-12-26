@@ -51,6 +51,8 @@ aside .top_sub>p:nth-child(2) img {
 aside .top_sub>p:nth-child(3) {
     margin-top: 18px;
     margin-right: 54px;
+    cursor: pointer;
+
 }
 aside .top_sub>p:nth-child(3) img {
     vertical-align: middle;
@@ -71,6 +73,11 @@ aside .top_sub>p:nth-child(3) img {
 }
 .logo_ul ul li a img{
     padding: 5px;
+}
+
+header{
+    width: 100%;
+    min-width: 1440px;
 }
 header h1{
     width: 100%;
@@ -95,7 +102,7 @@ header h1{
 }
 .gnb2{
     height: 45px;
-    line-height: 40px;
+    line-height: 45px;
     margin-bottom: 200px;
 }
 
@@ -107,6 +114,17 @@ header h1{
     justify-content: space-between;
     font-size: 16px;
     font-weight: 200;
+}
+
+.gnb2 ul li{
+    width: 110px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.gnb2 ul li:hover{
+    background-color: #605B5B;
+    color: #cccdd1;
+    cursor: pointer;
 }
 
 
