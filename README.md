@@ -1,4 +1,3 @@
-### 개발자 취업을 원하는 모현진입니다. 👋
 
 <!--
 **mo0923/mo0923** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
